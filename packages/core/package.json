@@ -1,6 +1,6 @@
 {
   "name": "@cutter-cli-dev/core",
-  "version": "1.0.2",
+  "version": "1.0.1",
   "description": "cutter-cli-dev core",
   "author": "TCutter <786753417@qq.com>",
   "homepage": "",
@@ -17,9 +17,11 @@
     "lib"
   ],
   "publishConfig": {
+    "access": "public",
     "registry": "https://registry.npmmirror.com/"
   },
   "scripts": {
     "test": "node ./__tests__/core.test.js"
-  }
+  },
+  "gitHead": "0f0df6a355cef5734d56b9bf8f676bb1acaf7336"
 }
